@@ -1,9 +1,9 @@
 import React from 'react';
 import Nav from './Nav';
-import Cats from './Cats/Cats';
-import Dogs from './Dogs/Dogs';
-import Search from './Search/Search';
-import ToDo from './ToDo/ToDo';
+import Cats from './cats/Cats';
+import Dogs from './dogs/Dogs';
+import Search from './search/Search';
+import ToDo from './todo/ToDo';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const Main = () => {
