@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Sitebar = () => {
     return (
         <Navbar color="dark" dark expand="md">
-            <NavbarBrand href="#">
+            <NavbarBrand>
                 Home
             </NavbarBrand>
             <Nav className="ml-auto">
