@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Sitebar = () => {
     return (
         <Navbar color="dark" dark expand="md">
-            <NavbarBrand>
+            {/* <NavbarBrand>
                 Home
-            </NavbarBrand>
+            </NavbarBrand> */}
             <Nav className="ml-auto">
                 <NavItem>
                     <Link to="/cats" className="site-link">Cat Challenge</Link>
