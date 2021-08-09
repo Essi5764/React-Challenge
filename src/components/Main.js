@@ -13,6 +13,7 @@ const Main = () => {
             <Router>
                 <Nav />
                 <Switch>
+                    <Route exact path="/home" component={Main} />
                     <Route exact path="/cats" component={ Cats } />
                     <Route exact path="/search" component={ Search } />
                     <Route exact path="/dogs" component={ Dogs } />
