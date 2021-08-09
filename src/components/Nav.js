@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Sitebar = () => {
     return (
         <Navbar color="dark" dark expand="md">
-            <NavbarBrand href="/home">
+            <NavbarBrand href="/React-Challenge/">
                 Home
             </NavbarBrand>
             <Nav className="ml-auto">
